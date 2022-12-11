@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+/*Header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/*intro*/
+
+.section-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    gap: 48px;
+}
+
+.intro-awesome {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro-blabla {
+    font-size: 16px;
+}
+
+.intro-text {
+    width: 500px;
+}
+
+.image-intro {
+    height: 250px;
+    width: 500px
+}
+
+.button-intro {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4.3px;
+    font-size: 14px;
+    padding: 8px 32px;
+}
+
+.section-carre {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
